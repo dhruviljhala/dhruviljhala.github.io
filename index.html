@@ -11,7 +11,52 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		
+		<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0" />
+    <title>Text Animation</title>
+      
+    <style>
+        body {
+            background: green;
+        }
+  
+  
+        span::before {
+            content: "Geeks";
+            animation: animate infinite 12s;
+            padding-left: 10px;
+        }
+  
+        @keyframes animate {
+  
+            0% {
+                content:"Hello!";
+            }
+  
+            30% {
+                content:"नमस्ते!";
+            }
+  
+            50% {
+                content:"Bonjour!";
+		}
+	    100% {
+		content:"Olá!";
+            }
+        }
+    </style>
+</head>
+  
+
+  
 	</head>
+
+
+    
+
 	<body class="is-preload">
 
 		<!-- Sidebar -->
@@ -33,13 +78,17 @@
 			<div id="wrapper">
 
 				<!-- Intro -->
+
+
+
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<IMG class="displayed" src="images/profile1.png" height="300" width="300">
 						<div class="inner">
-							<h2 align="left">Hello!,</h2>
-							<h1>I'm <strong style="color:#C70039">Dhruvilsinh Jhala.</strong><img src="https://raw.githubusercontent.com/sidbelbase/sidbelbase/master/wave.gif" width="50px"></h1>
+
+
+							<h1 align="left"><span> </span> I'm <strong style="color:#B40404"> Dhruvilsinh Jhala.</strong><img src="https://raw.githubusercontent.com/sidbelbase/sidbelbase/master/wave.gif" width="50px"></h1>
 								
-</h1>
+
 							<p align="justify"> Watching a YouTube video titled ‘Why Machine Learning is the future’ by Sundar Pichai gave me a feeling of consciousness, back in 2018. He states that better computational power and access to a lot of relevant data are the two main causes of the progress in ML. My immediate goal after bachelors degree is to go for masters in Data Science. In the long run I envision myself becoming a Data Scientist as I am highly inspired by Harvard calling Data Scientist: The Sexiest Job of the 21st Century. I am a motivated and a versatile engineer with demonstrated experience in Data Science and Machine Learning domain. Experienced in data processing, developing Machine Learning algorithms and developing final predictive model. I believe that I am a strong problem solver, technical writer and have excellent communication skills. I am dedicated to exceeding goals and expectations. 
 							</p>
 						</div>
